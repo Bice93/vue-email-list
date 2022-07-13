@@ -29,7 +29,7 @@
                 </div>
                 <div>
                     <ul>
-                        <li v-for="element in emails" class="list-group-item"> {{ element }} </li>
+                        <li v-for="element in emails" v-if="emails.length == 10" class="list-group-item"> {{ element }} </li>
                     </ul>
                 </div>
 
