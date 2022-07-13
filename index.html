@@ -23,13 +23,13 @@
     <div id="root">
         <div class="container">
             <div class="row">
-                <div class="text-center">
+                <div class="text-center my-5">
                     <h1> Elenco Indirizzi Email </h1>
                     <h6>Generare 10 indirizzi email e stamparli in pagina all'interno di una lista.</h6>
                 </div>
                 <div>
                     <ul>
-                        <li v-for="element in 10" class="list-group-item"> {{ currentEmail }} </li>
+                        <li v-for="element in emails" class="list-group-item"> {{ element }} </li>
                     </ul>
                 </div>
 
